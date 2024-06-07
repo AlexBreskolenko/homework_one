@@ -12,10 +12,44 @@ body{
 
 .container {
     width: $widthContent;
+    margin: 0 auto;
 }
 
 .header{
     background-color: #222222;
     padding-top: 18px;
     padding-bottom: 18px;
+}
+
+.header__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left{
+    display: flex;
+    gap: 41px;
+    align-items: end;
+}
+
+.header__right{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-section__icon-backet{
+    position: relative;
+}
+
+.header-section__number-five{
+    position: absolute;
+    color: #ffffff;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    background-color: #F16D7F;
+    border-radius: 50px;
+    top: -6px;
+    right: -10px;
 }
