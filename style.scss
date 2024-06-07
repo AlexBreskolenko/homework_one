@@ -11,7 +11,7 @@ body{
 }
 
 .container {
-    width: $widthContent;
+    max-width: $widthContent;
     margin: 0 auto;
 }
 
